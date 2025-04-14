@@ -20,13 +20,16 @@ Test-driven development involves writing tests first, then implementing the code
 
 ### Setup
 
-1. Make sure you have the following dependencies installed:
-   - Python 3.x
-   - NumPy
+1. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 2. Place the test files in your project directory alongside your neural network implementation file.
 
 3. If your implementation is not named `neural_network.py`, update the import statement in the test file.
+
+Note: The test runner uses colorama for colored terminal output to make it easier to see which tests pass or fail.
 
 ## Development Workflow
 
@@ -37,7 +40,7 @@ For the best learning experience, follow this step-by-step approach:
 The Layer class is the foundation of your neural network. Begin by implementing:
 
 ```bash
-python3 test_runner.py layer
+python test_runner.py layer
 ```
 
 This runs three test classes:
