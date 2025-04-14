@@ -8,7 +8,7 @@ import os
 # sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Import your neural network classes - update these imports based on your module structure
-from solutions.solns_mlp_scratch import Layer, ReLU, Softmax, CrossEntropyLoss, NeuralNetwork
+from mlp_scratch import Layer, ReLU, Softmax, CrossEntropyLoss, NeuralNetwork
 
 class TestLayerInitialization(unittest.TestCase):
     """Test the initialization of the Layer class."""
